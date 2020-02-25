@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PedidosYA</string>
+    <string name="google_maps_api_key">AIzaSyD7d_v7ukQakPHeG-s5E_DN4Lag6MYMiCU</string>
+    <string name="filename">pedidosYaSharedP</string>
+    <string name="key">pedidosYaKey</string>
+    <string name="keyData">pedidosYaKeyData</string>
+
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="dialog_error_message">Ha ocurrido un error, intente de nuevo mas tarde</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="no_data_text">No hemos encontrado ningun restaurante establecimiento de tu ubicacion</string>
+    <string name="error_restaurants_text">Ha ocurrido un error, por favor intenta de nuevo mas tarde</string>
+    <string name="error_location_text">Ha ocurrido un error, verifica tu configuracion GPS e intentalo de nuevo</string>
+    <string name="not_granted_permission_text">Permiso no otorgado</string>
+    <string name="general_error_text">Ha ocurrido un error, por favor intenta de nuevo mas tarde</string>
+    <string name="location">location</string>
+    <string name="dialog">Dialog</string>
+    <string name="clientid">colocarclientidaqui</string>
+    <string name="clientpassword">colocarclientsecretaqui</string>
+
+</resources>

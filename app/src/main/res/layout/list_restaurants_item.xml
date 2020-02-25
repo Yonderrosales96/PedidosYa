@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+
+        android:layout_gravity="center_vertical"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:fontFamily="@font/acme"
+        android:textAlignment="center"
+        android:text="Titulo del restaurante"
+
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/acme"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityname"
+        android:textAlignment="center"
+        android:text="Titulo del restaurante"
+
+        />
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/reviews"
+        android:textAlignment="center"
+        android:text="1"
+
+        />
+
+
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>
